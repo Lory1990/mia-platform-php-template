@@ -1,1 +1,1 @@
-# mia-platform-php-template
+# Mia Platform PHP Template

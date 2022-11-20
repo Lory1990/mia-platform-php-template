@@ -1,0 +1,14 @@
+include:
+  - project: "platform/pipelines-templates"
+    file: /common/base-build.yml
+    ref: master
+  - project: "platform/pipelines-templates"
+    file: "/common/docker-build-images.yml"
+    ref: master
+
+.docker-job:
+  variables:
+    COMMIT_SHA_FILEPATH: /commit.sha
+
+default:
+  image: node:12.20.0-alpine
