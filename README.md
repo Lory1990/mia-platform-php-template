@@ -1,5 +1,5 @@
  # PHP Template for Mia Platform
-This is a template to be used in Mia Platform console to create a new Micrtoservice using [PHP](https://www.php.net).
+This is a template to be used in Mia Platform console to create a new Microservice using [PHP](https://www.php.net).
 
 The microservice comes with one page, the `index` one. It implements also the technical endpoints for Kubernetes
 ```
@@ -17,4 +17,4 @@ Then put the entire repo into `<xamppFolder>\htdocs\<yourRepo>` (i.e. `C:\xampp\
 
 
 ## Deploy
-The microservice comes with Build&Deploy gitlab pipeline (see `.gitlab-ci.yml`), simply push the code and tag it when you want to deploy.
+The microservice comes with Build&Deploy GitLab pipeline (see `.gitlab-ci.yml`), simply push the code and tag it when you want to deploy.
